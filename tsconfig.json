@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": true, // 不报告执行不到的代码错误
+    "allowUnusedLabels": false, // 不报告未使用便签错误
+    "alwaysStrict": false,
+    "baseUrl": ".",
+    "preserveConstEnums": true,
+    "experimentalDecorators": true, // 启用ES5装饰器
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "pretty": true,
+    "noImplicitAny": true, // 默认禁用any
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES5", // 编译成什么版本
+    "module": "CommonJS", // 当前代码语法
+    "declaration": true, // 是否自动创建类型声明文件
+    "typeRoots": [
+      // 指定某个文件夹的声明文件
+      "node_modules/@types"
+    ],
+    "allowJs": false, // 不允许编译javascript文件。
+    "lib": [
+      // 编译过程中需要引入的库文件的列表
+      "es6",
+      "dom"
+    ]
+  },
+  "include": [
+    "packages",
+    "examples"
+  ]
+}

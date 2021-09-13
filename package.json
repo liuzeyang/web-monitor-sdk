@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "description": "a web monitor sdk",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuzeyang/web-monitor-sdk.git"
+  },
+  "keywords": [
+    "web",
+    "monitor"
+  ],
+  "author": "jasonlzy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuzeyang/web-monitor-sdk/issues"
+  },
+  "homepage": "https://github.com/liuzeyang/web-monitor-sdk#readme"
+}
