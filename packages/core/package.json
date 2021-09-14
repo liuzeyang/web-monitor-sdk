@@ -1,0 +1,16 @@
+{
+  "name": "@jason-monitor/core",
+  "version": "1.0.0",
+  "description": "jason monitor core",
+  "main": "dist/core.js",
+  "module": "dist/core.esm.js",
+  "types": "dist/core.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jasonlzy",
+  "license": "MIT"
+}

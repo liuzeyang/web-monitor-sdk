@@ -1,0 +1,16 @@
+{
+  "name": "@jason-monitor/web",
+  "version": "1.0.0",
+  "description": "jason monitor web",
+  "main": "dist/web.js",
+  "module": "dist/web.esm.js",
+  "types": "dist/web.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jasonlzy",
+  "license": "MIT"
+}
